@@ -1,0 +1,249 @@
+* {
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  padding: 18px 7rem;
+}
+
+.wrapper nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.wrapper nav .navLeft {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.wrapper nav .brand {
+  width: 36px;
+}
+
+.wrapper nav .searchForm {
+  border: 1px solid #777;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  overflow: hidden;
+  height: 36px;
+  width: 300px;
+}
+
+.wrapper nav .searchForm input {
+  flex: 1;
+  padding: 4px 4px 4px 24px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: sans-serif !important;
+}
+
+.wrapper nav .profile {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.wrapper nav .profile .profile-picture {
+  width: 100%;
+}
+
+.wrapper nav .profile .profile-circle {
+  border: 1px solid rgba(20, 69, 52, 0.2);
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  padding: 8px;
+}
+
+.wrapper nav .profile .username {
+  font-weight: bold;
+  color: #144534;
+}
+
+/* ************************************************ */
+
+.wrapper .back-button {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  margin-bottom: 20px;
+}
+
+.wrapper > .back-button > i,
+p.back-button-label {
+  color: #21c560;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* ************************************************ */
+.wrapper .main {
+  margin-bottom: 100px;
+}
+.wrapper .main .tab-content {
+  display: flex;
+  gap: 56px;
+}
+
+.main-tab-content {
+  flex: 3;
+}
+
+.aside-tab-content {
+  flex: 1;
+}
+
+/* ************************************************* */
+.wrapper .main h1 {
+  font-weight: 700;
+  color: #144534;
+  margin-bottom: 40px;
+}
+
+.wrapper .main .tab-menu {
+  border-bottom: 1px solid rgba(119, 119, 119, 0.2);
+  display: flex;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.wrapper .main .tab-menu a {
+  font-weight: 600;
+  color: #144534;
+  text-decoration: none;
+}
+
+.wrapper .main .tab-menu a.active-tab-menu::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #144534;
+  display: block;
+  margin-top: 12px;
+}
+/* ************************************************************************** */
+.wrapper .main .summary-grid {
+  display: flex;
+  border: 1px solid rgba(119, 119, 119, 0.2);
+  justify-content: space-between;
+  border-radius: 12px;
+  padding: 24px 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.wrapper .main .summary-grid .divider {
+  width: 1px;
+  height: 52px;
+  background-color: rgba(119, 119, 119, 0.2);
+  display: block;
+}
+
+.wrapper .main .summary-grid div {
+  text-align: center;
+}
+
+.wrapper .main .summary-grid div h3 {
+  font-size: 24px;
+  font-family: serif !important;
+  color: #144534;
+  margin-bottom: 4px;
+}
+
+.wrapper .main .summary-grid div p {
+  text-transform: uppercase;
+  font-size: 12px !important;
+  font-weight: bold;
+  color: #777777;
+}
+
+/* ************************************** */
+
+.wrapper .main .chart {
+  border: 1px solid rgba(119, 119, 119, 0.2);
+  border-radius: 12px;
+  padding: 24px 20px;
+}
+
+.wrapper .main .chart .chart-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .main .chart .chart-header h2:first-child {
+  font-weight: 700;
+  color: #144534;
+}
+
+.wrapper .main .chart .chart-header h2:last-child {
+  font-weight: 300;
+}
+
+/* ************************** */
+.wrapper .main .tab-content .aside-tab-content img {
+  margin-bottom: 12px;
+}
+.wrapper .main .tab-content .aside-tab-content span {
+  font-size: 12px;
+  color: #777777;
+  margin-bottom: 8px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.wrapper .main .tab-content .aside-tab-content p {
+  margin-bottom: 20px;
+  font-family: serif !important;
+  font-weight: 600;
+  color: #144534;
+}
+
+.wrapper .main .tab-content .aside-tab-content hr {
+  margin: 20px 0;
+  background-color: rgba(119, 119, 119, 0.2);
+  padding: 0.5px;
+  border: 0;
+}
+
+.badge {
+  display: flex;
+  gap: 4px;
+}
+
+.badge img.badge-logo {
+  width: 32px;
+}
+
+/* ************************************************************ */
+
+footer {
+  text-align: center;
+}
+
+footer p.copyright {
+  font-size: 14px;
+  color: #777777;
+}
+
+/* 
+
+    RED: #ef564d
+    GREEN: #21c560
+    DARK_GREEN: #144534
+    GREY: #777
+    
+
+*/
+
+/* #21c560 */

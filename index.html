@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Nanum+Myeongjo:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="lib//fontisto-master/css/fontisto/fontisto.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <div class="navLeft">
+          <img src="images/ShareWillow_Logo.svg" alt="" class="brand" />
+          <div class="searchForm">
+            <i class="fi fi-search"></i>
+            <input type="text" name="" id="" placeholder="Search anything" />
+          </div>
+        </div>
+        <div class="profile">
+          <p class="username">Hi Ryan</p>
+          <div class="profile-circle">
+            <img src="images/account.svg" alt="" class="profile-picture" />
+          </div>
+        </div>
+      </nav>
+      <div class="back-button">
+        <i class="fi fi-arrow-left-l"></i>
+        <p class="back-button-label">Back to investments</p>
+      </div>
+      <div class="main">
+        <h1>Waystar RoyCo</h1>
+        <div class="tab-menu">
+          <a href="#" class="active-tab-menu">Overview</a>
+          <a href="#">Documents</a>
+          <a href="#">Distributions</a>
+        </div>
+        <div class="tab-content">
+          <div class="main-tab-content">
+            <div class="summary-grid">
+              <div>
+                <h3>$120,000</h3>
+                <p>Total Amount Invested</p>
+              </div>
+              <div class="divider"></div>
+              <div>
+                <h3>$3,370.80</h3>
+                <p>Total Distributions</p>
+              </div>
+              <div class="divider"></div>
+              <div>
+                <h3>9%</h3>
+                <p>Cash-on-Cash Return</p>
+              </div>
+              <div class="divider"></div>
+              <div>
+                <h3>12/31/2023(Q4)</h3>
+                <p>Next Payout</p>
+              </div>
+            </div>
+            <div class="chart">
+              <div class="chart-header">
+                <h2>Cashflow History</h2>
+                <h2>9% APY</h2>
+              </div>
+              <canvas id="myChart" height="80px"></canvas>
+            </div>
+          </div>
+          <div class="aside-tab-content">
+            <img src="images/download.png" alt="" class="waystar-logo" />
+            <div class="company-address">
+              <span>Company Address</span>
+              <p>4236 Jovany Garden Suite 579</p>
+              <p>New York, NY, 80766-9397 United States</p>
+            </div>
+            <div class="point-of-contact">
+              <span>Point of Contact</span>
+              <p>Marcia Roy</p>
+              <p>Investor Relations</p>
+            </div>
+            <div class="phone-fax">
+              <span>Phone/Fax</span>
+              <p>(751) 564 01 96</p>
+            </div>
+            <div class="email">
+              <span>Email</span>
+              <p>marcia.roy@waystarroyco.com</p>
+            </div>
+            <hr />
+            <div class="badge">
+              <img src="images/badge.svg" alt="" class="badge-logo" />
+              <img src="images/badge.svg" alt="" class="badge-logo" />
+            </div>
+            <div class="inventor-since">
+              <span>Investor Since</span>
+              <p>Sep 10, 2021 (2yrs)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p class="copyright">
+          &copy; ShareWillow, Inc 2023. All Rights Reserved.
+        </p>
+      </footer>
+    </div>
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
